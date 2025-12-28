@@ -1,75 +1,42 @@
-# Nuxt Minimal Starter
+# mqj-website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+基于 Nuxt（Minimal Starter）构建的站点项目。
 
-## Setup
+## 环境要求
 
-Make sure to install dependencies:
+- Node.js > 20
+- pnpm > 10.0.0
+
+## 安装依赖
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## 本地开发
 
-Start the development server on `http://localhost:3000`:
+启动开发服务器（默认：`http://localhost:3000`）：
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 生产构建
 
-Build the application for production:
+构建生产包：
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+本地预览生产包：
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 参考文档
+
+- Nuxt 文档：https://nuxt.com/docs
+
+Nuxt我爱你））））
