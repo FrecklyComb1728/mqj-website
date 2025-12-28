@@ -374,3 +374,4 @@ const getRankStyle = (index: number): RankStyle | null => {
   return index >= 0 && index < rankStyles.length ? rankStyles[index]! : null
 }
 </script>
+

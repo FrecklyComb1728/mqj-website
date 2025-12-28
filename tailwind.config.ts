@@ -3,12 +3,12 @@ import type { Config } from 'tailwindcss'
 const config = {
   darkMode: 'class',
   content: [
-    './app.vue',
-    './error.vue',
-    './components/**/*.{vue,js,ts}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
+    './app/app.vue',
+    './app/error.vue',
+    './app/components/**/*.{vue,js,ts}',
+    './app/layouts/**/*.vue',
+    './app/pages/**/*.vue',
+    './app/plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}'
   ],
   theme: {

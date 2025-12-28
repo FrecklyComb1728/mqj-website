@@ -1,4 +1,3 @@
-/* View Transition API */
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation: none;
@@ -20,8 +19,6 @@
 .dark::view-transition-new(root) {
   z-index: 1;
 }
-
-/* Page Transition */
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -32,8 +29,6 @@
   opacity: 0;
   transform: translateY(10px);
 }
-
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
