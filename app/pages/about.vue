@@ -110,9 +110,18 @@
                 <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
                   有想加的注册商、币种或排序维度，直接在群里抛需求，迭代会更快。
                 </p>
-                <div class="mt-4 inline-flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 dark:bg-gray-800/70 dark:text-gray-300">
-                  <UIcon name="i-heroicons-link" class="h-4 w-4" />
-                  https://t.me/miqingju
+                <div class="mt-4 flex flex-col items-start gap-2">
+                  <div class="inline-flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 dark:bg-gray-800/70 dark:text-gray-300">
+                    <UIcon name="i-heroicons-link" class="h-4 w-4" />
+                    https://t.me/miqingju
+                  </div>
+                  <a
+                    class="inline-flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 transition-colors hover:bg-gray-200/70 dark:bg-gray-800/70 dark:text-gray-300 dark:hover:bg-gray-700/50"
+                    href="mailto:contact@miqingju.com"
+                  >
+                    <UIcon name="i-heroicons-envelope" class="h-4 w-4" />
+                    纠错&反馈：contact@miqingju.com
+                  </a>
                 </div>
               </div>
 
